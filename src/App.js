@@ -8,6 +8,7 @@ import './App.css';
 import Home from './pages/Home';
 import ContactUs from './pages/ContactUs';
 import ReviewMessage from './pages/ReviewMessage';
+import News from './pages/News';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="/" exact component={Home}/>
             <Route path="/contact-us" exact component={ContactUs}/>
             <Route path="/review-message" exact component={ReviewMessage}/>
+            <Route path="/news" exact component={News}/>
           </Switch>
         </BrowserRouter>
       </PersistGate>

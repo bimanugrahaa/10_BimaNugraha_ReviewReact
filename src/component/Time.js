@@ -20,18 +20,20 @@ export default function Time() {
 
     const setTick = () => {
         
+        console.log(today)
         today.map((day) => {
-            setTimer(...today, day)
+            console.log(day)
+            setTimer(...today)
         })
 
         console.log(timer)
 
-        let day = date.getHours()
-        let month = timer.getMinutes()
-        let year = timer.year
-        let hour = timer.hour
-        let minute = timer.minute
-        let second = timer.second
+        // let day = date.getHours()
+        // let month = timer.getMinutes()
+        // let year = timer.year
+        // let hour = timer.hour
+        // let minute = timer.minute
+        // let second = timer.second
 
         // const newTimer = {
         //     day: timer.day,
@@ -42,11 +44,13 @@ export default function Time() {
         //     second: timer.second
         // }
     }
+
+    setTick();
     
 
     return(
-        <>
-        </>
+        <div>
+        </div>
     )
     
 }

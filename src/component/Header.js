@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from "../assets/img/logo-ALTA.png";
 import './home.css';
 
@@ -16,6 +16,7 @@ export default function Header(){
                 <li><a href="/" className="nav-link px-3 link-dark">ABOUT</a></li>
                 <li><a href="/" className="nav-link px-3 link-dark">EXPERIENCES</a></li>
                 <li><a href="/" className="nav-link px-3 link-dark">CONTACT</a></li>
+                <li><Link className="nav-link px-3 link-dark" to="/news">NEWS</Link></li>
             </ul>
         </header>
     )
