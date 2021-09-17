@@ -1,0 +1,123 @@
+*{
+    font-family: sans-serif;
+}
+
+span{
+    color: red;
+}
+
+p{
+    font-size: 28px;
+    font-style: normal;
+    font-weight: normal;
+    color: #19345E;
+}
+
+.left-image{
+    width: 100%;
+    height: 1024px;
+    background: linear-gradient(rgba(25, 52, 94, 0.65), rgba(25, 52, 94, 0.65)),url(../assets/img/charles-rRWiVQzLm7k-unsplash.jpg);
+    background-size: cover;
+}
+
+.alterra-logo{
+    padding: 350px 0px;
+    width: 60%;
+    height: 90%;
+    opacity: 0.65;
+}
+
+.data-container{
+    padding: 118px 0px 0px 118px;
+}
+
+.contact-form{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 23px;
+    color: #19345E;
+}
+
+.error-msg{
+    color: red;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.form-control{
+    width: 468px;
+    height: 28px;
+}
+
+.form-select{
+    width: 468px;
+    height: 28px;
+}
+
+.text-area{
+    height: 112px;
+}
+
+.btn-contact{
+    width: 96px;
+    height: 40px;
+    margin-top: 32px;
+    background-color: #F47522;
+    border-radius: 20px;
+    color: white;
+}
+
+.is-invalid{
+    display: none;
+}
+
+@media screen and (max-width: 1080px){
+    .data-container{
+        padding: 118px 0px 0px 50px;
+    }
+
+    .form-control{
+        width: 350px;
+        height: 28px;
+    }
+    
+    .form-select{
+        width: 350px;
+        height: 28px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .alterra-logo{
+        padding: 350px 0px;
+        width: 80%;
+        height: 90%;
+        opacity: 0.65;
+    }
+    
+    .data-container{
+        padding: 118px 0px 0px 20px;
+    }
+
+    .form-control{
+        width: 350px;
+        height: 28px;
+    }
+    
+    .form-select{
+        width: 350px;
+        height: 28px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .data-container{
+        padding: 80px 0px 0px 50px;
+    }
+
+    .btn-contact{
+        margin-bottom: 32px;
+    }
+}
+
