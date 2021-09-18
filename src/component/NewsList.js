@@ -22,6 +22,7 @@ export default function NewsList() {
                 
             } catch (error) {
                 setError(error);
+                console.log(error)
             }
         }),[]);
     // }

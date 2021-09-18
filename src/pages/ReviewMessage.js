@@ -18,7 +18,7 @@ export default function ReviewMessage(){
 
     return(
         <>
-        <Time/>
+        {/* <Time/> */}
         <div className="container-fluid background-message">
         <div className="container dot-container">
                 <div className="dot-div">
