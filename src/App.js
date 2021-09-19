@@ -9,6 +9,7 @@ import Home from './pages/Home';
 import ContactUs from './pages/ContactUs';
 import ReviewMessage from './pages/ReviewMessage';
 import News from './pages/News';
+import NotFound from './pages/NotFound';
 
 function App() {
   return (
@@ -20,12 +21,11 @@ function App() {
             <Route path="/contact-us" exact component={ContactUs}/>
             <Route path="/review-message" exact component={ReviewMessage}/>
             <Route path="/news" exact component={News}/>
+            <Route component={NotFound}/>
           </Switch>
         </BrowserRouter>
       </PersistGate>
-    </Provider>
-    
-    // <ReviewMessage/>
+    </Provider>    
   );
 }
 

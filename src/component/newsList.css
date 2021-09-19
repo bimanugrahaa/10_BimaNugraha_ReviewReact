@@ -16,3 +16,29 @@
     font-weight: 500;
     font-size: 20px;
 }
+
+.container-search{
+    margin: 20px auto; 
+    width: 650px;
+    height: 40px; 
+    border-radius: 20px; 
+    box-shadow: -1px 2px 15px -1px rgba(110,110,110,0.44)
+}
+
+.seacrh-bar{
+    width: 500px;
+    height: 40px;
+    border: 0px;
+    border-radius: 20px; 
+    padding-left: 20px;
+    vertical-align: center;
+}
+
+.search-btn{
+    border-radius: 50px;
+    border: 0px ;
+    margin-left: 10px ; 
+    height: 35px ;
+    background: white ;
+    vertical-align: center ;
+}

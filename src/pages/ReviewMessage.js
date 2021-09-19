@@ -5,20 +5,10 @@ import Time from '../component/Time';
 
 export default function ReviewMessage(){
     const message = useSelector((state) => state.data.data)
-    const dispatch = useDispatch()
     console.log(message)
-
-    // const locale = "id"
-    // let date = new Date()
-    // let utc = date.toLocaleDateString(locale,  { hour: 'numeric', minute: 'numeric', second: 'numeric' })
-    // let tick = date.toString(locale).split(" ", 5)
-    // console.log(date)
-    // console.log(utc)
-    // console.log(tick)
 
     return(
         <>
-        {/* <Time/> */}
         <div className="container-fluid background-message">
         <div className="container dot-container">
                 <div className="dot-div">
