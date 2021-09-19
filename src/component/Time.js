@@ -25,6 +25,7 @@ export default function Time() {
     const [timer, setTimer] = useState(tick)
 
     useEffect(() => {
+        // const abortControleer = new AbortController();
         setInterval(() => {
             let ticks = new Date().toLocaleTimeString();
             let todays = new Date().toLocaleDateString();
@@ -32,6 +33,11 @@ export default function Time() {
             setDate(todays)
         }, 1000);
 
+        // return function cleanup() {
+        //     setTimer(tick)
+        //     setDate(today)
+        //     abortControleer.abort();
+        // }
         
     })
 

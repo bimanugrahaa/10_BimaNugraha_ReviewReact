@@ -17,7 +17,7 @@ export default function Jumbotron() {
                 <h1 className="heading-1">Anne Sullivan</h1>
                 <h3 className="heading-3">I build things for the web</h3>
                 <Link to="/contact-us" role="button" id="btn-home" className="btn">Get In Touch</Link>
-                {/* <a href="contact_us.html" role="button" id="btn-home" className="btn">Get In Touch</a> */}
+                {/* <a href="contact-us" role="button" id="btn-home" className="btn">Get In Touch</a> */}
                 </div>
             </div>
         </div>
