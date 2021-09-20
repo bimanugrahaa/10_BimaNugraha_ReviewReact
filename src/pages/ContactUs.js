@@ -90,17 +90,23 @@ export default function ContactUs() {
 
     const handleSubmit = (e) => {
         // e.preventDefault()
-        const newData = {
-            name: data.name,
-            mail: data.mail,
-            phone: data.phone,
-            nationality: data.nationality,
-            message: data.message
-        }
 
-        console.log(data.name)
-        dispatch(updateMessage(newData))
-        goReviewMessage()
+        if (err.name || err.mail || err.phone !== ""){
+            e.preventDefault()
+        } else {
+            const newData = {
+                name: data.name,
+                mail: data.mail,
+                phone: data.phone,
+                nationality: data.nationality,
+                message: data.message
+            }
+    
+            console.log(data.name)
+            dispatch(updateMessage(newData))
+            goReviewMessage()
+        }
+        
          
     }
     

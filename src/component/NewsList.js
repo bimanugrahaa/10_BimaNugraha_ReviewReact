@@ -45,6 +45,13 @@ export default function NewsList() {
         
         useEffect(() => {
 
+            // let isMounted = true;
+            // if (isMounted) {
+            //     fetchData();
+            // }
+            // return() => {
+            //     isMounted = false;
+            // }
             fetchData();
 
         }, [])
